@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  padding: 15px;
+}
+
+.container .info {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.container .info .category, .container .info .count {
+  font-weight: bold;
+  color: #0075ff;
+  font-size: 15px;
+}
+
+.container .info .category span, .container .info .count span {
+  font-weight: normal;
+  color: #000;
+}
+
+.container .quiz {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.container .quiz h2.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container .quiz .answers-area {
+  background-color: #f0f0f0;
+}
+
+.container .quiz .answers-area .answer {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .quiz .answers-area .answer:not(:last-child) {
+  border-bottom: 2px solid #dedede;
+}
+
+.container .quiz .answers-area .answer input[type="radio"] {
+  cursor: pointer;
+}
+
+.container .quiz .answers-area .answer label {
+  cursor: pointer;
+  padding: 15px 10px;
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container .quiz .answers-area .answer input[type="radio"]:checked + label {
+  color: #0075ff;
+}
+
+.container .quiz button.submit-Button {
+  border: none;
+  background-color: #0075ff;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.container .quiz button.submit-Button:active {
+  opacity: .7;
+}
+
+.container .quiz button.submit-Button.finish {
+  opacity: .3;
+  pointer-events: none;
+}
+
+.container .footer {
+  color: #000;
+}
+
+.container .footer .parent {
+  background-color: #fff;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 2px solid #dedede;
+}
+
+.container .footer .parent .spans-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.container .footer .parent .spans-count span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #dedede;
+}
+
+.container .footer .parent .spans-count span.active {
+  background-color: #0075ff;
+}
+
+.container .footer .parent .counter {
+  color: #000;
+}
+
+.container .footer .parent .counter .minutes {
+  color: #000;
+}
+
+.container .footer .parent .counter .seconds {
+  color: #000;
+}
+
+.container .footer .result {
+  padding-top: 15px;
+}
+
+.container .footer .result span {
+  font-weight: bold;
+}
+
+.container .footer .result span.perfect {
+  color: green;
+}
+
+.container .footer .result span.good {
+  color: #0075ff;
+}
+
+.container .footer .result span.bad {
+  color: red;
+}
+/*# sourceMappingURL=project14.css.map */
