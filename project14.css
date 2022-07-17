@@ -58,6 +58,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-item: center;
 }
 
 .container .quiz .answers-area .answer:not(:last-child) {
