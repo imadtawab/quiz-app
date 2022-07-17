@@ -11,7 +11,7 @@ html {
 
 .container {
   max-width: 600px;
-  margin: 20px auto;
+  margin: auto;
   background-color: #f0f0f0;
   padding: 15px;
 }
@@ -159,14 +159,32 @@ html {
 }
 
 .container .footer .result span.perfect {
-  color: green;
-}
-
-.container .footer .result span.good {
   color: #0075ff;
 }
 
+.container .footer .result span.good {
+  color: #4caf50;
+}
+
 .container .footer .result span.bad {
-  color: red;
+  color: #f44336;
+}
+
+.container .replay-btn {
+  border: none;
+  background-color: #f44336;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.container .replay-btn:active {
+  opacity: .7;
 }
 /*# sourceMappingURL=project14.css.map */
