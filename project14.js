@@ -102,9 +102,9 @@ function controlTime(min = 0, sec = 30) {
   if (counterQuestions < 9) {
     setTimeOut = setInterval(() => {
       if (sec >= 0) {
-        sec--;
+        
         sec < 10 ? (seconds.innerText = `0${sec}`) : (seconds.innerText = sec);
-
+        sec--;
         min < 10 ? (minutes.innerText = `0${min}`) : (minutes.innerText = min);
       } else {
         if (min > 0) {
